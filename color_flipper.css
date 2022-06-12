@@ -1,0 +1,36 @@
+:root {
+    --transition: all 0.3sec linear;
+}
+body {
+    background-color: rgb(53, 223, 155);
+    font-family: "Open Sans", sans-serif;
+}
+#btn {
+    position: relative;
+    left: 680px;
+    top: 50px;
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: auto;
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+h1 {
+    text-align: center;
+    border: solid thin black;
+    max-width: 700px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+#clr-display{
+    color: lightskyblue;
+}
+
